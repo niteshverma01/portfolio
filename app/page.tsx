@@ -77,8 +77,7 @@ export default function Home() {
                 transition={{ delay: 0.8 }}
                 className="text-lg text-gray-300"
               >
-                I&apos;m a full stack developer at <span className="text-purple-400">Meteoros Automation</span>,
-                passionate about creating beautiful, functional web experiences.
+                A Full Stack Developer passionate about building fast, clean, and interactive web applications. I craft seamless user experiences from frontend to backend, always learning and evolving.
               </motion.p>
 
               <motion.div
@@ -98,7 +97,7 @@ export default function Home() {
                   className="px-6 py-6 text-base border-purple-500 text-white hover:bg-purple-500/10"
                   asChild
                 >
-                  <Link href="#">
+                  <Link href="./nitesh-resume.pdf">
                     <Download className="mr-2 h-4 w-4" /> Download CV
                   </Link>
                 </Button>
@@ -111,13 +110,13 @@ export default function Home() {
                 transition={{ delay: 1.2 }}
                 className="flex gap-4 pt-2"
               >
-                <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <Link href="https://github.com/niteshverma01" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Github className="h-5 w-5" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <Link href="https://www.linkedin.com/in/nitesh--verma01/" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Linkedin className="h-5 w-5" />
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <Link href="https://x.com/NVerma_07?t=qRRhpxUa46iLu-2RdCQbwQ&s=09" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Twitter className="h-5 w-5" />
                 </Link>
               </motion.div>
@@ -152,17 +151,22 @@ export default function Home() {
                     <span className="text-blue-600 dark:text-blue-300">title:</span>{" "}
                     <span className="text-orange-600 dark:text-orange-300">{"'Full Stack Developer'"}</span>,
                   </div>
-                  <div className="ml-8">
-                    <span className="text-blue-600 dark:text-blue-300">company:</span>{" "}
-                    <span className="text-orange-600 dark:text-orange-300">{"'Meteoros Automation'"}</span>,
-                  </div>
+
                   <div className="ml-8">
                     <span className="text-blue-600 dark:text-blue-300">skills:</span>{" "}
                     <span className="text-yellow-600 dark:text-yellow-300">{"["}</span>
-                    <span className="text-orange-600 dark:text-orange-300">{"'React'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'HTML'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'CSS'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'Javascript'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'Bootstrap'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'React.js'"}</span>,{" "}
                     <span className="text-orange-600 dark:text-orange-300">{"'Next.js'"}</span>,{" "}
                     <span className="text-orange-600 dark:text-orange-300">{"'TypeScript'"}</span>,{" "}
-                    <span className="text-orange-600 dark:text-orange-300">{"'Tailwind'"}</span>
+                    <span className="text-orange-600 dark:text-orange-300">{"'Tailwind'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'MongoDB'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'MySQL'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'Node.js'"}</span>,{" "}
+                    <span className="text-orange-600 dark:text-orange-300">{"'Express.js'"}</span>
                     <span className="text-yellow-600 dark:text-yellow-300">{"]"}</span>,
                   </div>
                   <div className="ml-8">

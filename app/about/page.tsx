@@ -7,10 +7,10 @@ export default function AboutPage() {
   const experiences = [
     {
       id: 1,
-      title: "Full Stack Developer",
+      title: "Frontend Engineer",
       company: "Meteoros Automation",
-      location: "Remote",
-      period: "2022 - Present",
+      location: "Chennai,Tamil nadu",
+      period: "Feb 2025 - Present",
       description: [
         "Developing responsive and user-friendly web interfaces using React and modern JavaScript",
         "Building robust backend systems with Node.js, Express, and MongoDB",
@@ -22,10 +22,10 @@ export default function AboutPage() {
     },
     {
       id: 2,
-      title: "Web Developer",
-      company: "Previous Company",
-      location: "City, Country",
-      period: "2020 - 2022",
+      title: "Frontend Developer",
+      company: "CodeXintern",
+      location: "Remote",
+      period: "Sep 2024 - Oct 2022",
       description: [
         "Built responsive websites and implemented UI/UX designs",
         "Worked with JavaScript frameworks to create interactive web applications",

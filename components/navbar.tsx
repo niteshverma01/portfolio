@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X, Moon, Sun } from "lucide-react"
 import { cn } from "@/lib/utils"
-import Image from "../public/my-photo (1).jpeg"
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion"
 import { useTheme } from "next-themes"
 
@@ -65,7 +65,7 @@ export default function Navbar() {
         >
           <div className="relative h-10 w-10 overflow-hidden rounded-full border border-purple-500">
             <Image
-              src="../public/my-photo (1).jpeg"
+              src="/my-photo (1).jpeg"
               alt="Profile"
               width={40}
               height={40}

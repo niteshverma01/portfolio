@@ -5,12 +5,10 @@ import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
-import { useSound } from "./sound-provider"
 
 export default function ThemeToggle() {
   const { theme, setTheme, resolvedTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
-  const { playClick } = useSound()
   const isDarkMode = theme === "dark" || resolvedTheme === "dark"
 
   useEffect(() => {
@@ -18,7 +16,6 @@ export default function ThemeToggle() {
   }, [])
 
   const toggleTheme = () => {
-    playClick()
     const newTheme = isDarkMode ? "light" : "dark"
     setTheme(newTheme)
   }
@@ -33,9 +30,8 @@ export default function ThemeToggle() {
         variant="ghost"
         size="icon"
         onClick={toggleTheme}
-        className={`rounded-full ${
-          isDarkMode ? "bg-gray-800 hover:bg-gray-700 text-purple-400" : "bg-gray-200 hover:bg-gray-300 text-purple-600"
-        }`}
+        className={`rounded-full ${isDarkMode ? "bg-gray-800 hover:bg-gray-700 text-purple-400" : "bg-gray-200 hover:bg-gray-300 text-purple-600"
+          }`}
         aria-label="Toggle theme"
       >
         {isDarkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
